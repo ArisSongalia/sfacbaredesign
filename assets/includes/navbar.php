@@ -1,22 +1,23 @@
 <div id="container" style="padding-top: 96px;">
   <!-- Top Contact Bar -->
-  <div class="bg-custom-red text-white py-1 px-3 d-flex justify-content-between align-items-center small fixed-top" style="z-index: 1031;">
-    <div>
-      <i class="bi bi-envelope me-2"></i> info@sfacbacoor.edu.ph
-      <i class="bi bi-telephone ms-4 me-2"></i> (046) 123-4567
-    </div>
-    <div>
-      <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
-      <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
-      <a href="#" class="text-white"><i class="bi bi-youtube"></i></a>
+  <div class="bg-custom-red text-white py-1 small fixed-top " style="z-index: 1031;">
+    <div class="container-md d-flex justify-content-between align-items-center">
+      <div>
+        <i class="bi bi-envelope me-1"></i>admissions.sfacbacoor@gmail.com
+        <i class="bi bi-telephone ms-2 me-1"></i>(046) 501 1135
+      </div>
+      <div>
+        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+      </div>
     </div>
   </div>
 
   <!-- Main Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow" style="top: 24px;">
-    <div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow bg-white" style="top: 26px;">
+    <div class="container-fluid container-md">
       <a class="navbar-brand" href="#">
-        <img src="assets/img/sfac_logo.png" alt="SFAC Logo" height="40" />
+        <img src="assets/img/sfac_logo.png" alt="SFAC Logo" height="46" />
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
