@@ -1,0 +1,22 @@
+.banner-bg {
+  background-image: url('../assets/img/banner.png'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 60vh;
+}
+
+.bg-custom-red {
+  background-color: #da0021 !important;
+}
+
+.btn-outline-custom-red {
+  color: #da0021 !important;
+  border: 1px solid #da0021 !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-custom-red:hover {
+  background-color: #da0021 !important;
+  color: #fff !important;
+}
