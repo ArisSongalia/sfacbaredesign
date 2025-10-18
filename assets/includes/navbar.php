@@ -1,6 +1,6 @@
 <div id="container" style="padding-top: 96px;">
   <!-- Top Contact Bar -->
-  <div class="bg-custom-red text-white py-1 small fixed-top " style="z-index: 1031;">
+  <div class="bg-danger text-white py-1 small fixed-top " style="z-index: 1031;">
     <div class="container-md d-flex justify-content-between align-items-center">
       <div>
         <i class="bi bi-envelope me-1"></i>admissions.sfacbacoor@gmail.com

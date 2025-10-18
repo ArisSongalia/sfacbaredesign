@@ -1,7 +1,7 @@
 .banner-bg {
   background-image: url('../assets/img/banner.png'); 
   background-size: cover;
-  background-position: center; 
+  background-position: top; 
   background-repeat: no-repeat; 
 }
 
@@ -21,14 +21,13 @@
 }
 
 .stylish-link {
-  color: #da0021;
+  color: #ffe7ea;
   font-weight: 500;
-  text-decoration: none;
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .stylish-link:hover {
-  color: #a8001a;
+  color: #ff9aa9;
   text-decoration: underline;
 }
 
@@ -37,9 +36,8 @@
 }
 
 .custom-card {
-  
   display: flex;
   flex-direction: column;
-  border-radius: 0.5rem; 
-
+  border-radius: 0.5rem;
 }
+
