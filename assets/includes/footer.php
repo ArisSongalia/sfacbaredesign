@@ -1,96 +1,52 @@
-  <!-- ======= Footer ======= -->
-  <footer id="footer" class="bg-light">
+<section id="footer" class="bg-dark text-white py-5">
+  <div class="container-lg">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 gy-4">
 
-    <!-- <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Mentor</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>
-
-        </div>
+      <!-- Campus Name and Social -->
+      <div class="col">
+        <h2 class="font-merriweather">Saint Francis of Assisi College Bacoor Campus</h2>
+        <span class="d-flex flex-row gap-4 mt-4">
+          <a href="https://www.facebook.com/sfacbacoor" target="_blank" class="stylish-link" aria-label="Facebook">
+            <i class="bi bi-facebook fs-4"></i>
+          </a>
+          <a href="https://www.linkedin.com/company/sfacbacoor" target="_blank" class="stylish-link" aria-label="LinkedIn">
+            <i class="bi bi-linkedin fs-4"></i>
+          </a>
+          <a href="https://www.instagram.com/sfacbacoor" target="_blank" class="stylish-link" aria-label="Instagram">
+            <i class="bi bi-instagram fs-4"></i>
+          </a>
+        </span>
       </div>
-    </div> -->
 
-    <div class="container d-md-flex py-4">
+      <!-- School Hours -->
+      <div class="col">
+        <h5 class="small fw-semibold text-secondary">School Hours</h5>
+        <p class="small mb-1"><strong>Mon–Fri:</strong> 8AM – 4PM</p>
+        <p class="small"><strong>Sunday:</strong> Closed</p>
+      </div>
 
-      <div class="me-md-auto text-center text-md-start">
-          
-        <div class="col-lg col-md footer-contact">
-            <h3><b>Saint Francis of Assisi College - Bacoor</b></h3>
-            <p>
-              #96 Bayanan, City of Bacoor, Cavite
-            </p>
-        </div>
-        <div class="copyright">
-          &copy; Copyright <strong><span>Mentor</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/ -->
-          Designed by Aris Songalia</a>
-        </div>
+      <!-- Contact Info -->
+      <div class="col">
+        <h5 class="small fw-semibold text-secondary">Contact Us</h5>
+        <p class="small mb-1"><strong>Landline:</strong> 8800 3131</p>
+        <p class="small mb-1"><strong>Basic Education Department (BED)</strong></p>
+        <p class="small mb-1"><strong>Mobile:</strong> (0995) 419 8312</p>
+        <p class="small mb-3"><strong>Email:</strong> <a href="mailto:admissionsbedlp@stfrancis.edu.ph" class="text-white text-decoration-underline">admissionsbedlp@stfrancis.edu.ph</a></p>
+        <p class="small mb-1"><strong>Higher Education Department (HED)</strong></p>
+        <p class="small mb-1"><strong>Mobile:</strong> (0933) 946 8066</p>
+        <p class="small"><strong>Email:</strong> <a href="mailto:sfacmainlaspinas@gmail.com" class="text-white text-decoration-underline">sfacmainlaspinas@gmail.com</a></p>
       </div>
-      <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="https://www.facebook.com/mysfacbacoor" class="facebook"><i class="bx bxl-facebook"></i></a>
+
+      <!-- Developer Info -->
+      <div class="col">
+        <h5 class="small fw-semibold text-secondary">Developer</h5>
+        <p class="small">
+          <a href="mailto:hello.arissongalimcpe@gmail.com" class="stylish-link text-white text-decoration-none">
+            <i class="bi bi-envelope-fill me-2"></i>hello.arissongalimcpe@gmail.com
+          </a>
+        </p>
       </div>
+
     </div>
-  </footer><!-- End Footer -->
-  
-
-  <!--<div id="preloader"></div>-->
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
-</html>
+  </div>
+</section>

@@ -21,13 +21,13 @@
 }
 
 .stylish-link {
-  color: #ffe7ea;
+  color: #ffffff;
   font-weight: 500;
   transition: color 0.3s ease, text-decoration 0.3s ease;
 }
 
 .stylish-link:hover {
-  color: #ff9aa9;
+  color: #eb0023;
   text-decoration: underline;
 }
 
@@ -39,5 +39,10 @@
   display: flex;
   flex-direction: column;
   border-radius: 0.5rem;
+}
+
+.navbar-hide {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
 }
 

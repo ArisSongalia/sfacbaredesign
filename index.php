@@ -48,14 +48,16 @@
     </div>
 
     <!-- Recognition -->
-    <p class="fw-bold text-center small text-muted pt-5">Goverment Recognition</p>
-    <div class="container container-lg d-flex flex-row gap-2 justify-content-center" style="height: 4rem;">
-      <img src="./assets/img/deped.jpg" alt="">
-      <img src="./assets/img/bi.png" alt="" >
-      <img src="./assets/img/ched.jpg" alt="" >
-      <img src="./assets/img/peac.png" alt="" >
-      <img src="./assets/img/tesda.png" alt="" >
-    </div>
+    <section class="" style="padding: 3rem 0 4rem 0;">
+      <p class="fw-semibold text-center text-dark pb-3">Goverment Recognition</p>
+      <div class="container container-lg d-flex flex-row gap-2 justify-content-center" style="height: 4rem;">
+        <img src="./assets/img/deped.jpg" alt="">
+        <img src="./assets/img/bi.png" alt="" >
+        <img src="./assets/img/ched.jpg" alt="" >
+        <img src="./assets/img/peac.png" alt="" >
+        <img src="./assets/img/tesda.png" alt="" >
+      </div>
+    </section>
 
     <!-- About Us -->
     <section class="bg-light w-100 my-5">
@@ -87,75 +89,104 @@
 
 
             <!-- Courses Offered -->
-            <h5 class="text-secondary fw-bold font-merriweather">Courses Offered</h5>
-            <div class="row g-2 pt-2">
-              <div class="col-12 border rounded-4 p-3 shadow-sm">
-                <h5 class="text-danger fw-bold">Basic Education</h5>
-                <ul class="small">
-                  <li><strong>Pre-School:</strong> Nursery, Pre-Kinder, Kinder</li>
-                  <li><strong>Elementary:</strong> Grades 1 to 6</li>
-                  <li><strong>Curriculum Includes:</strong>
-                    <ul>
-                      <li>Core subjects (Math, English, Science, Filipino, Araling Panlipunan)</li>
-                      <li>Computer education at all levels</li>
-                      <li>Values formation and holistic development</li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
+          <h5 class="text-secondary fw-bold font-merriweather">Courses Offered</h5>
+          <div class="accordion" id="coursesAccordion">
 
-              <div class="col-12 border rounded-4 p-3 shadow-sm">
-                <h5 class="text-danger fw-bold">Secondary Education</h5>
-                <ul class="small">
-                  <li><strong>Junior High School:</strong> Grades 7–10</li>
-                  <li>Follows the K to 12 curriculum</li>
-                  <li>Includes computer education, values education, and enrichment programs</li>
-                  <li><strong>Senior High School:</strong> Grades 11–12</li>
-                  <li><strong>Academic Track:</strong>
-                    <ul>
-                      <li>STEM</li>
-                      <li>ABM</li>
-                      <li>HUMSS</li>
-                    </ul>
-                  </li>
-                  <li><strong>TVL Track:</strong> Based on demand and availability</li>
-                </ul>
-              </div>
-
-              <div class="col-12 border rounded-4 p-3 shadow-sm">
-                <h5 class="text-danger fw-bold">Higher Education</h5>
-                <ul class="small">
-                  <li><strong>Education</strong>
-                    <ul>
-                      <li>BSED – Major in English, Math, Filipino</li>
-                      <li>Bachelor of Elementary Education</li>
-                      <li>Bachelor of Early Childhood Education</li>
-                      <li>Bachelor of Physical Education</li>
-                    </ul>
-                  </li>
-                  <li><strong>Business</strong>
-                    <ul>
-                      <li>BSBA – Major in Financial, Marketing, Operations Management</li>
-                    </ul>
-                  </li>
-                  <li><strong>Technology</strong>
-                    <ul>
-                      <li>Bachelor of Science in Computer Science</li>
-                    </ul>
-                  </li>
-                  <li><strong>Hospitality</strong>
-                    <ul>
-                      <li>Bachelor of Science in Hospitality Management</li>
-                    </ul>
-                  </li>
-                </ul>
+            <!-- Basic Education -->
+            <div class="accordion-item border rounded-4 shadow-sm">
+              <h2 class="accordion-header" id="headingBasic">
+                <button class="accordion-button collapsed fw-bold text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBasic" aria-expanded="false" aria-controls="collapseBasic">
+                  Basic Education
+                </button>
+              </h2>
+              <div id="collapseBasic" class="accordion-collapse collapse" aria-labelledby="headingBasic" data-bs-parent="#coursesAccordion">
+                <div class="accordion-body small">
+                  <ul>
+                    <li><strong>Pre-School:</strong> Nursery, Pre-Kinder, Kinder</li>
+                    <li><strong>Elementary:</strong> Grades 1 to 6</li>
+                    <li><strong>Curriculum Includes:</strong>
+                      <ul>
+                        <li>Core subjects (Math, English, Science, Filipino, Araling Panlipunan)</li>
+                        <li>Computer education at all levels</li>
+                        <li>Values formation and holistic development</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
+
+            <!-- Secondary Education -->
+            <div class="accordion-item border rounded-4 shadow-sm">
+              <h2 class="accordion-header" id="headingSecondary">
+                <button class="accordion-button collapsed fw-bold text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSecondary" aria-expanded="false" aria-controls="collapseSecondary">
+                  Secondary Education
+                </button>
+              </h2>
+              <div id="collapseSecondary" class="accordion-collapse collapse" aria-labelledby="headingSecondary" data-bs-parent="#coursesAccordion">
+                <div class="accordion-body small">
+                  <ul>
+                    <li><strong>Junior High School:</strong> Grades 7–10</li>
+                    <li>Follows the K to 12 curriculum</li>
+                    <li>Includes computer education, values education, and enrichment programs</li>
+                    <li><strong>Senior High School:</strong> Grades 11–12</li>
+                    <li><strong>Academic Track:</strong>
+                      <ul>
+                        <li>STEM</li>
+                        <li>ABM</li>
+                        <li>HUMSS</li>
+                      </ul>
+                    </li>
+                    <li><strong>TVL Track:</strong> Based on demand and availability</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- Higher Education -->
+            <div class="accordion-item border rounded-4 shadow-sm">
+              <h2 class="accordion-header" id="headingHigher">
+                <button class="accordion-button collapsed fw-bold text-danger" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHigher" aria-expanded="false" aria-controls="collapseHigher">
+                  Higher Education
+                </button>
+              </h2>
+              <div id="collapseHigher" class="accordion-collapse collapse" aria-labelledby="headingHigher" data-bs-parent="#coursesAccordion">
+                <div class="accordion-body small">
+                  <ul>
+                    <li><strong>Education</strong>
+                      <ul>
+                        <li>BSED – Major in English, Math, Filipino</li>
+                        <li>Bachelor of Elementary Education</li>
+                        <li>Bachelor of Early Childhood Education</li>
+                        <li>Bachelor of Physical Education</li>
+                      </ul>
+                    </li>
+                    <li><strong>Business</strong>
+                      <ul>
+                        <li>BSBA – Major in Financial, Marketing, Operations Management</li>
+                      </ul>
+                    </li>
+                    <li><strong>Technology</strong>
+                      <ul>
+                        <li>Bachelor of Science in Computer Science</li>
+                      </ul>
+                    </li>
+                    <li><strong>Hospitality</strong>
+                      <ul>
+                        <li>Bachelor of Science in Hospitality Management</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
           </div>
 
           <!-- Image Column -->
           <div class="col-12 col-lg-6 d-flex flex-column align-items-start">
-            <img src="./assets/img/about.png" alt="About SFAC Bacoor" class="img-fluid rounded shadow mb-4" style="max-width: 100%;">
             <img src="./assets/img/about.png" alt="About SFAC Bacoor" class="img-fluid rounded shadow mb-4" style="max-width: 100%;">
           </div>
 
@@ -166,42 +197,52 @@
 
 
     <!-- image Panel -->
-    <div class="container container-lg d-flex flex-column gap-2 my-5">
+    <div class="container-lg my-5">
+      <div class="row g-2 align-items-stretch">
 
-      <div class="d-flex flex-row gap-2 w-100" style="height: 40rem;">
-
-        <div class="ratio h-100">
-          <iframe class="card-img-top" width="100%" height="full"
-            src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmysfacbacoor%2Fvideos%2F3517808661797690%2F&show_text=0&width=476"
-            title="Basic Education"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen>
-          </iframe>
+        <!-- YouTube + Card -->
+        <div class="col-12 col-lg-6">
+          <div class="ratio ratio-16x9 h-100">
+            <iframe
+              src="https://www.youtube.com/embed/LXdz4GEJBoc?list=TLGGgpAQy0YgjooxOTEwMjAyNQ"
+              title="Basic Education"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+              class="rounded shadow">
+            </iframe>
+          </div>
         </div>
 
-        <div class="h-100 w-100 d-flex flex-column gap-1">
-          <div class="ratio ratio-16x9 h-50">
-            <iframe class="card-img-top" width="100%" height="full"
+        <!-- YouTube + Card -->
+        <div class="col-12 col-lg-6 d-flex flex-column gap-3">
+
+          <!-- YouTube Video -->
+          <div class="ratio ratio-16x9">
+            <iframe
               src="https://www.youtube.com/embed/ZaN5RAG39-w?si=usXmKdIa8Ek6lOop"
               title="Higher Education"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
+              allowfullscreen
+              class="rounded shadow">
             </iframe>
           </div>
 
-          <div class="card w-100 h-100 banner-bg text-white">
+          <!-- Facebook Redirect Card -->
+          <div class="card flex-fill banner-bg text-white shadow">
             <div class="card-body d-flex flex-column justify-content-between">
               <h5 class="card-title">Visit us on Facebook</h5>
-              <p class="card-text">Saint Francis of Assisi College - Bacoor Campus </p>
-              <a href="#" class="btn btn-primary">Redirect</a>
+              <p class="card-text">Saint Francis of Assisi College - Bacoor Campus</p>
+              <a href="https://www.facebook.com/mysfacbacoor" target="_blank" class="btn btn-primary mt-auto">Redirect</a>
             </div>
           </div>
+
         </div>
 
       </div>
     </div>
+
 
   </main>
 

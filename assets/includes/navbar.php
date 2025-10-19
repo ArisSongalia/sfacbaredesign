@@ -1,3 +1,4 @@
+
 <div id="container" style="padding-top: 96px;">
   <!-- Top Contact Bar -->
   <div class="bg-danger text-white py-1 small fixed-top " style="z-index: 1031;">
@@ -9,6 +10,7 @@
       <div>
         <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
         <a href="#" class="text-white me-2"><i class="bi bi-linkedin"></i></a>
+        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
       </div>
     </div>
   </div>
