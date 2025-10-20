@@ -47,15 +47,75 @@
       </div>
     </div>
 
-    <!-- Recognition -->
-    <section class="" style="padding: 3rem 0 4rem 0;">
-      <p class="fw-semibold text-center text-dark pb-3">Goverment Recognition</p>
-      <div class=" d-flex flex-row gap-2 justify-content-center" style="height: 4rem;">
-        <img src="./assets/img/deped.jpg" alt="">
-        <img src="./assets/img/bi.png" alt="" >
-        <img src="./assets/img/ched.jpg" alt="" >
-        <img src="./assets/img/peac.png" alt="" >
-        <img src="./assets/img/tesda.png" alt="" >
+    <!-- Sfac Highlights -->
+    <section class="container-lg py-5 my-5">
+      <h2 class="text-center fw-bold font-merriweather mb-5">Saint Francis of Assisi Highlights</h2>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+
+        <!-- Transportation -->
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body d-flex flex-column">
+              <div class="mb-3 text-center">
+                <i class="bi bi-clock-fill fs-1 text-danger"></i>
+              </div>
+              <h5 class="fw-bold text-center">44 Years in Service</h5>
+              <p class="small text-muted text-center">SFAC has been in service for 4 years</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Library -->
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body d-flex flex-column">
+              <div class="mb-3 text-center">
+                <i class="bi bi-journal-bookmark-fill fs-1 text-danger"></i>
+              </div>
+              <h5 class="fw-bold text-center">Online Library & Databases</h5>
+              <p class="small text-muted text-center">Access academic journals, articles, and research tools for projects and assignments.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Writing Tools -->
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body d-flex flex-column">
+              <div class="mb-3 text-center">
+                <i class="bi bi-pencil-square fs-1 text-danger"></i>
+              </div>
+              <h5 class="fw-bold text-center">Writing & Research Tools</h5>
+              <p class="small text-muted text-center">Improve writing skills, grammar accuracy, and research methodology with online tools.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Career Planning -->
+        <div class="col">
+          <div class="card h-100 shadow-sm border-0 rounded-4">
+            <div class="card-body d-flex flex-column">
+              <div class="mb-3 text-center">
+                <i class="bi bi-briefcase-fill fs-1 text-danger"></i>
+              </div>
+              <h5 class="fw-bold text-center">Career Planning Tools</h5>
+              <p class="small text-muted text-center">Explore career paths, build resumes, and plan your academic journey with expert guidance.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Recognition -->
+      <div class="" style="padding: 3rem 0 4rem 0;">
+        <p class="fw-semibold text-center text-dark pb-3">Goverment Recognition</p>
+        <div class=" d-flex flex-row gap-2 justify-content-center" style="height: 4rem;">
+          <img src="./assets/img/deped.jpg" alt="">
+          <img src="./assets/img/bi.png" alt="" >
+          <img src="./assets/img/ched.jpg" alt="" >
+          <img src="./assets/img/peac.png" alt="" >
+          <img src="./assets/img/tesda.png" alt="" >
+        </div>
       </div>
     </section>
 
@@ -196,7 +256,7 @@
     </section>
 
     <!-- Departments -->
-    <section class="container-lg py-5" style="height: 30rem;">
+    <section class="container-lg py-5 my-5">
       <h2 class="font-merriweather fw-bold text-center mb-5">Explore Our Departments</h2>
       <div class="row row-cols-1 row-cols-md-2 g-4">
 
@@ -241,6 +301,7 @@
 
       </div>
     </section>
+
 
     <!-- Video Panel -->
     <section class="w-100 py-5" style="margin: 10rem 0 10rem 0;">
