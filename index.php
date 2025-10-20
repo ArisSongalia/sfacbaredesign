@@ -14,18 +14,18 @@
     <?php include './assets/includes/navbar.php'; ?>
 
     <!-- Banner -->
-    <div id="banner" class="banner-bg text-white d-flex w-100 text-black text-center gap-2 flex-column align-items-center" style="padding: 10rem 0;">
-      <section id="display-text" class="text-center">
+    <section id="banner" class="banner-bg text-white d-flex w-100 text-black text-center gap-2 flex-column align-items-center h-75 justify-content-center" style="padding: 10rem 0;">
+      <div id="display-text" class="text-center">
         <h2 class="display-4 fw-bold font-merriweather">
           Saint Francis of Assisi College<br>Bacoor Campus
         </h2>
-        <p class="fs-5" >
+        <p class="fs-5 text-light" >
           Empowering Minds. Shaping Futures. Academics and Beyond.
         </p>
 
-      </section>
+      </div>
 
-      <section id="cta" class="mt-3 d-flex flex-column align-items-center gap-3">
+      <div id="cta" class="mt-3 d-flex flex-column align-items-center gap-3">
         <a href="https://maps.app.goo.gl/wRCCcMWUGKBQz5LW6" class="stylish-link">
           <i class="bi bi-geo-alt-fill me-1"></i>#96 Bayanan, City of Bacoor, Cavite
         </a>
@@ -33,11 +33,11 @@
           <button type="button" class="btn bg-custom-red text-white border-0 me-1 w-100 py-3 px-6 rounded-5">Enroll Now</button>
           <button type="button" class="btn btn-outline-light w-100 py-3 px-6 rounded-5">Contact Us</button>
         </div>
-      </section>
-    </div>
+      </div>
+</section>
 
     <!-- Announcments -->
-    <div class="shadow px-3 py-2 shadow-sm">
+    <div class="w-100 shadow px-3 py-2 shadow-sm">
       <div class="container-lg d-flex align-items-center">
         <i class="bi bi-megaphone-fill me-2 fs-5"></i>
         <div class="flex-grow-1 small">
@@ -50,7 +50,7 @@
     <!-- Recognition -->
     <section class="" style="padding: 3rem 0 4rem 0;">
       <p class="fw-semibold text-center text-dark pb-3">Goverment Recognition</p>
-      <div class="container container-lg d-flex flex-row gap-2 justify-content-center" style="height: 4rem;">
+      <div class=" d-flex flex-row gap-2 justify-content-center" style="height: 4rem;">
         <img src="./assets/img/deped.jpg" alt="">
         <img src="./assets/img/bi.png" alt="" >
         <img src="./assets/img/ched.jpg" alt="" >
@@ -60,7 +60,7 @@
     </section>
 
     <!-- About Us -->
-    <section class="bg-light w-100 my-5">
+    <section class="w-100 bg-light my-5">
       <div class="container-lg py-5">
         <div class="row g-5 align-items-center">
           
@@ -68,7 +68,7 @@
           <div class="col-12 col-lg-6">
           <div class="mb-5">
             <h2 class="font-merriweather fw-bold text-danger mb-3">About Our School</h2>
-            <p class="lead text-dark">
+            <p class="lead text-dark m-2">
               At Saint Francis of Assisi College, Bacoor Campus, we nurture academic excellence, holistic development, and lifelong values.
             </p>
             <div class="border-start border-3 border-danger ps-3">
@@ -195,53 +195,92 @@
       </div>
     </section>
 
+    <!-- Departments -->
+    <section class="container-lg py-5" style="height: 30rem;">
+      <h2 class="font-merriweather fw-bold text-center mb-5">Explore Our Departments</h2>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
 
-    <!-- image Panel -->
-    <div class="container-lg my-5">
-      <div class="row g-2 align-items-stretch">
-
-        <!-- YouTube + Card -->
-        <div class="col-12 col-lg-6">
-          <div class="ratio ratio-16x9 h-100">
-            <iframe
-              src="https://www.youtube.com/embed/LXdz4GEJBoc?list=TLGGgpAQy0YgjooxOTEwMjAyNQ"
-              title="Basic Education"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="rounded shadow">
-            </iframe>
+        <!-- Basic Education Card -->
+        <div class="col">
+          <div class="card shadow-sm border-0 rounded-4 h-100">
+            <div class="position-relative">
+              <img src="./assets/img/banner.png" alt="Basic Education" class="img-fluid w-100" style="height: 18rem; object-fit: cover;">
+              <span class="position-absolute top-0 start-0 bg-danger text-white px-3 py-1 rounded-end">Basic Education</span>
+            </div>
+            <div class="card-body bg-light h-100">
+              <p class="small mb-2 text-muted">Pre-School to Senior High</p>
+              <ul class="small mb-3">
+                <li>Nursery, Pre-Kinder, Kinder</li>
+                <li>Grades 1–6, Grades 7–10</li>
+                <li>Senior High: STEM, ABM, HUMSS, GAS, TVL-HE</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-danger m-2">View Details</a>
           </div>
         </div>
 
-        <!-- YouTube + Card -->
-        <div class="col-12 col-lg-6 d-flex flex-column gap-3">
-
-          <!-- YouTube Video -->
-          <div class="ratio ratio-16x9">
-            <iframe
-              src="https://www.youtube.com/embed/ZaN5RAG39-w?si=usXmKdIa8Ek6lOop"
-              title="Higher Education"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-              class="rounded shadow">
-            </iframe>
-          </div>
-
-          <!-- Facebook Redirect Card -->
-          <div class="card flex-fill banner-bg text-white shadow">
-            <div class="card-body d-flex flex-column justify-content-between">
-              <h5 class="card-title">Visit us on Facebook</h5>
-              <p class="card-text">Saint Francis of Assisi College - Bacoor Campus</p>
-              <a href="https://www.facebook.com/mysfacbacoor" target="_blank" class="btn btn-primary mt-auto">Redirect</a>
+        <!-- Higher Education Card -->
+        <div class="col">
+          <div class="card shadow-sm border-0 rounded-4 h-100" >
+            <div class="position-relative">
+              <img src="./assets/img/banner.png" alt="Higher Education" class="img-fluid w-100" style="height: 18rem; object-fit: cover;">
+              <span class="position-absolute top-0 start-0 bg-danger text-white px-3 py-1 rounded-end">Higher Education</span>
             </div>
+            <div class="card-body bg-light h-100">
+              <p class="small mb-2 text-muted">College Degree Programs</p>
+              <ul class="small mb-3">
+                <li>Education: BSED, BEEd, PE</li>
+                <li>Business: BSBA (Marketing, Finance)</li>
+                <li>Technology: BSCS</li>
+                <li>Hospitality: BSHM</li>
+              </ul>
+            </div>
+            <a href="#" class="btn btn-danger m-2">View Details</a>
           </div>
-
         </div>
 
       </div>
-    </div>
+    </section>
+
+    <!-- Video Panel -->
+    <section class="w-100 py-5" style="margin: 10rem 0 10rem 0;">
+      <div class="container-lg">
+        <div class="row g-4 align-items-stretch">
+
+          <!-- Basic Education Video -->
+          <div class="col-12 col-lg-6">
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/LXdz4GEJBoc?list=TLGGgpAQy0YgjooxOTEwMjAyNQ"
+                title="Basic Education"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="rounded shadow w-100">
+              </iframe>
+            </div>
+          </div>
+
+          <!-- Higher Education + Facebook Card -->
+          <div class="col-12 col-lg-6 d-flex flex-column gap-4">
+
+            <!-- Higher Education Video -->
+            <div class="ratio ratio-16x9">
+              <iframe
+                src="https://www.youtube.com/embed/ZaN5RAG39-w?si=usXmKdIa8Ek6lOop"
+                title="Higher Education"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                class="rounded shadow w-100">
+              </iframe>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
 
 
   </main>
