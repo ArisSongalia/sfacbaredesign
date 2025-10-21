@@ -27,7 +27,7 @@
 }
 
 .stylish-link:hover {
-  color: #eb0023;
+  color: #ff2042;
   text-decoration: underline;
 }
 
@@ -45,4 +45,15 @@
   transform: translateY(-100%);
   transition: transform 0.3s ease-in-out;
 }
+
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.font-impact {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
 

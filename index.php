@@ -16,111 +16,112 @@
     <!-- Banner -->
     <section id="banner" class="banner-bg text-white d-flex w-100 text-black text-center gap-2 flex-column align-items-center h-75 justify-content-center" style="padding: 10rem 0;">
       <div id="display-text" class="text-center">
+        <img src="./assets/img/sfac-logo.png" alt="" style="width: 12rem; height: 12rem" class="my-4">
         <h2 class="display-4 fw-bold font-merriweather">
           Saint Francis of Assisi College<br>Bacoor Campus
         </h2>
-        <p class="fs-5 text-light" >
-          Empowering Minds. Shaping Futures. Academics and Beyond.
-        </p>
+          <!-- Tagline -->
+          <div class="fst-italic font-impact fs-4">
+            <span class="text-white">Academics. </span><span class="text-danger">And Beyond.</span>
+          </div>
+        </div>
 
-      </div>
-
-      <div id="cta" class="mt-3 d-flex flex-column align-items-center gap-3">
+      <div id="cta" class="mt-2 d-flex flex-column align-items-center gap-3 w-100">
         <a href="https://maps.app.goo.gl/wRCCcMWUGKBQz5LW6" class="stylish-link">
           <i class="bi bi-geo-alt-fill me-1"></i>#96 Bayanan, City of Bacoor, Cavite
         </a>
-        <div class="d-flex w-100 gap-1">
-          <button type="button" class="btn bg-custom-red text-white border-0 me-1 w-100 py-3 px-6 rounded-5">Enroll Now</button>
-          <button type="button" class="btn btn-outline-light w-100 py-3 px-6 rounded-5">Contact Us</button>
+        <div class="d-flex gap-1 my-2">
+          <button type="button" class="btn bg-custom-red text-white border-0 px-5 py-3 rounded-5">Enroll Now</button>
+          <button type="button" class="btn bg-light text-black px-5 py-3 rounded-5">Contact Us</button>
         </div>
       </div>
 </section>
 
-    <!-- Announcments -->
-    <div class="w-100 shadow px-3 py-2 shadow-sm">
-      <div class="container-lg d-flex align-items-center">
-        <i class="bi bi-megaphone-fill me-2 fs-5"></i>
-        <div class="flex-grow-1 small">
-          <strong>Enrollment Open:</strong> Apply now for SY 2025–2026!
-        </div>
-        <a href="#" class="btn btn-light btn-sm ms-3">Announcements</a>
+  <!-- Announcments -->
+  <div class="w-100 shadow py-2 shadow-sm">
+    <div class="container-lg d-flex align-items-center">
+      <i class="bi bi-megaphone-fill me-2 fs-5"></i>
+      <div class="flex-grow-1 small">
+        <strong>Enrollment Open:</strong> Apply now for SY 2025–2026!
+      </div>
+      <a href="#" class="btn btn-light btn-sm ms-3">Announcements</a>
+    </div>
+  </div>
+
+  <!-- SFAC Highlights -->
+  <section class="container-lg py-5 my-5 custom-height d-flex flex-column h-auto justify-content-center">
+    <h2 class="text-center fw-bold font-merriweather">Why Choose Saint Francis of Assisi College?</h2>
+
+    <!-- Recognition Logos -->
+    <div class="mt-5 pb-5">
+      <p class="fw-semibold text-center text-black">We are Recognized By</p>
+      <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
+        <img src="./assets/img/deped.jpg" alt="DepEd" class="img-fluid" style="height: 4rem;">
+        <img src="./assets/img/bi.png" alt="BI" class="img-fluid" style="height: 4rem;">
+        <img src="./assets/img/ched.jpg" alt="CHED" class="img-fluid" style="height: 4rem;">
+        <img src="./assets/img/peac.png" alt="PEAC" class="img-fluid" style="height: 4rem;">
+        <img src="./assets/img/tesda.png" alt="TESDA" class="img-fluid" style="height: 4rem;">
       </div>
     </div>
 
-    <!-- Sfac Highlights -->
-    <section class="container-lg py-5 my-5">
-      <h2 class="text-center fw-bold font-merriweather mb-5">Saint Francis of Assisi Highlights</h2>
-      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-
-        <!-- Transportation -->
-        <div class="col">
-          <div class="card h-100 shadow-sm border-0 rounded-4">
-            <div class="card-body d-flex flex-column">
-              <div class="mb-3 text-center">
-                <i class="bi bi-clock-fill fs-1 text-danger"></i>
-              </div>
-              <h5 class="fw-bold text-center">44 Years in Service</h5>
-              <p class="small text-muted text-center">SFAC has been in service for 4 years</p>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+      <!-- Years -->
+      <div class="col d-flex">
+        <div class="card flex-fill shadow-sm border-0 rounded-3 p-4 bg-danger text-white">
+          <div class="card-body d-flex flex-column justify-content-center text-center">
+            <div class="mb-3">
+              <i class="bi bi-clock-fill fs-1 text-white"></i>
             </div>
+            <h5 class="fw-bold">44 Years in Service</h5>
+            <p class="small">SFAC has been in service for 44 years, upholding academic excellence since 1981.</p>
           </div>
         </div>
-
-        <!-- Library -->
-        <div class="col">
-          <div class="card h-100 shadow-sm border-0 rounded-4">
-            <div class="card-body d-flex flex-column">
-              <div class="mb-3 text-center">
-                <i class="bi bi-journal-bookmark-fill fs-1 text-danger"></i>
-              </div>
-              <h5 class="fw-bold text-center">Online Library & Databases</h5>
-              <p class="small text-muted text-center">Access academic journals, articles, and research tools for projects and assignments.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Writing Tools -->
-        <div class="col">
-          <div class="card h-100 shadow-sm border-0 rounded-4">
-            <div class="card-body d-flex flex-column">
-              <div class="mb-3 text-center">
-                <i class="bi bi-pencil-square fs-1 text-danger"></i>
-              </div>
-              <h5 class="fw-bold text-center">Writing & Research Tools</h5>
-              <p class="small text-muted text-center">Improve writing skills, grammar accuracy, and research methodology with online tools.</p>
-            </div>
-          </div>
-        </div>
-
-        <!-- Career Planning -->
-        <div class="col">
-          <div class="card h-100 shadow-sm border-0 rounded-4">
-            <div class="card-body d-flex flex-column">
-              <div class="mb-3 text-center">
-                <i class="bi bi-briefcase-fill fs-1 text-danger"></i>
-              </div>
-              <h5 class="fw-bold text-center">Career Planning Tools</h5>
-              <p class="small text-muted text-center">Explore career paths, build resumes, and plan your academic journey with expert guidance.</p>
-            </div>
-          </div>
-        </div>
-
       </div>
 
-      <!-- Recognition -->
-      <div class="" style="padding: 3rem 0 4rem 0;">
-        <p class="fw-semibold text-center text-dark pb-3">Goverment Recognition</p>
-        <div class=" d-flex flex-row gap-2 justify-content-center" style="height: 4rem;">
-          <img src="./assets/img/deped.jpg" alt="">
-          <img src="./assets/img/bi.png" alt="" >
-          <img src="./assets/img/ched.jpg" alt="" >
-          <img src="./assets/img/peac.png" alt="" >
-          <img src="./assets/img/tesda.png" alt="" >
+      <!-- Campuses -->
+      <div class="col d-flex">
+        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
+          <div class="card-body d-flex flex-column justify-content-center text-center">
+            <div class="mb-3">
+              <i class="bi bi-journal-bookmark-fill fs-1 text-danger"></i>
+            </div>
+            <h5 class="fw-bold">10+ Campuses</h5>
+            <p class="small text-dark">Serving Metro Manila and Southern Luzon.</p>
+          </div>
         </div>
       </div>
-    </section>
+
+      <!-- CHED -->
+      <div class="col d-flex">
+        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
+          <div class="card-body d-flex flex-column justify-content-center text-center">
+            <div class="mb-3">
+              <i class="bi bi-pencil-square fs-1 text-danger"></i>
+            </div>
+            <h5 class="fw-bold">CHED Recognized</h5>
+            <p class="small text-dark">Government-accredited programs meeting national standards.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Alumni -->
+      <div class="col d-flex">
+        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
+          <div class="card-body d-flex flex-column justify-content-center text-center">
+            <div class="mb-3">
+              <i class="bi bi-briefcase-fill fs-1 text-danger"></i>
+            </div>
+            <h5 class="fw-bold">Global Alumni</h5>
+            <p class="small text-dark">Graduates thriving across diverse industries worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
     <!-- About Us -->
-    <section class="w-100 bg-light my-5">
+    <section class="w-100 bg-light py-5 my-5">
       <div class="container-lg py-5">
         <div class="row g-5 align-items-center">
           
@@ -128,23 +129,23 @@
           <div class="col-12 col-lg-6">
           <div class="mb-5">
             <h2 class="font-merriweather fw-bold text-danger mb-3">About Our School</h2>
-            <p class="lead text-dark m-2">
+            <p class="lead text-dark">
               At Saint Francis of Assisi College, Bacoor Campus, we nurture academic excellence, holistic development, and lifelong values.
             </p>
             <div class="border-start border-3 border-danger ps-3">
-              <ul class="list-unstyled small">
-                <li class="mb-2">
+              <ul class="list-unstyled">
+                <li class="mb-3">
                   <strong>Empowering students</strong> to become leaders of tomorrow through quality education.
                 </li>
-                <li class="mb-2">
+                <li class="mb-3">
                   <strong>Fostering a community</strong> of integrity, discipline, and respect.
                 </li>
-                <li class="mb-2">
+                <li class="mb-3">
                   <strong>Providing opportunities</strong> for both academic and extracurricular growth in a supportive environment.
                 </li>
               </ul>
             </div>
-            <button type="button" class="btn btn-outline-dark py-2 px-4 rounded-5">Read More</button>
+            <button type="button" class="btn btn-outline-dark py-2 px-4 rounded-5">More About Us</button>
           </div>
 
 
@@ -262,9 +263,9 @@
 
         <!-- Basic Education Card -->
         <div class="col">
-          <div class="card shadow-sm border-0 rounded-4 h-100">
+          <div class="card h-100 shadow-sm border-0 rounded-4 h-100">
             <div class="position-relative">
-              <img src="./assets/img/banner.png" alt="Basic Education" class="img-fluid w-100" style="height: 18rem; object-fit: cover;">
+              <img src="./assets/img/basic.jpg" alt="Basic Education" class="img-fluid w-auto" style="height: 18rem; object-fit: cover;">
               <span class="position-absolute top-0 start-0 bg-danger text-white px-3 py-1 rounded-end">Basic Education</span>
             </div>
             <div class="card-body bg-light h-100">
@@ -283,7 +284,7 @@
         <div class="col">
           <div class="card shadow-sm border-0 rounded-4 h-100" >
             <div class="position-relative">
-              <img src="./assets/img/banner.png" alt="Higher Education" class="img-fluid w-100" style="height: 18rem; object-fit: cover;">
+              <img src="./assets/img/higher.jpg" alt="Higher Education" class="img-fluid w-auto" style="height: 18rem; object-fit: cover;">
               <span class="position-absolute top-0 start-0 bg-danger text-white px-3 py-1 rounded-end">Higher Education</span>
             </div>
             <div class="card-body bg-light h-100">
