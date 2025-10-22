@@ -31,30 +31,91 @@
           <i class="bi bi-geo-alt-fill me-1"></i>#96 Bayanan, City of Bacoor, Cavite
         </a>
         <div class="d-flex gap-1 my-2">
-          <button type="button" class="btn bg-custom-red text-white border-0 px-5 py-3 rounded-5">Enroll Now</button>
-          <button type="button" class="btn bg-light text-black px-5 py-3 rounded-5">Contact Us</button>
+          <button type="button" class="btn bg-custom-red text-white border-0 px-5 py-2 rounded-5">Enroll Now</button>
+          <button type="button" class="btn bg-light text-black px-5 py-2 rounded-5">Contact Us</button>
         </div>
       </div>
 </section>
 
   <!-- Announcments -->
-  <div class="w-100 shadow py-2 shadow-sm">
+  <div class="w-100 shadow py-2 shadow-sm" style="margin-bottom: 8rem">
     <div class="container-lg d-flex align-items-center">
-      <i class="bi bi-megaphone-fill me-2 fs-5"></i>
-      <div class="flex-grow-1 small">
-        <strong>Enrollment Open:</strong> Apply now for SY 2025–2026!
+      <i class="bi bi-megaphone-fill me-2 fs-5 "></i>
+      <div class="flex-grow-1 ">
+        <strong class="">Enrollment Open:</strong> Apply now for SY 2025–2026!
       </div>
-      <a href="#" class="btn btn-light btn-sm ms-3">Announcements</a>
+      <button type="button" class="btn btn-danger btn-sm w-auto d-flex gap-4 justify-content-between align-items-center p-2">
+        <span class="mb-0">View Details</span>
+        <i class="bi bi-arrow-right fs-5"></i>
+      </button>
     </div>
   </div>
 
   <!-- SFAC Highlights -->
-  <section class="container-lg py-5 my-5 custom-height d-flex flex-column h-auto justify-content-center">
-    <h2 class="text-center fw-bold font-merriweather">Why Choose Saint Francis of Assisi College?</h2>
+  <section class="container-lg custom-height d-flex flex-column h-auto justify-content-center rounded-5 py-5" style="margin-top: 8rem; margin-bottom: 8rem">
+    <div class="w-100 d-flex align-items-center flex-column">
+        <h2 class="text-center fw-bold font-merriweather">Why Choose Saint Francis of Assisi College?</h2>
+        <p class="text-center" style="max-width: 50rem;">At SFAC Bacoor, we go beyond academics—fostering a values-driven community inspired by Saint Francis of Assisi. 
+          With caring mentors and a holistic approach, we prepare students for life: spiritually, intellectually, and socially.</p>
+      </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-3 my-2">
+      <!-- Years -->
+      <div class="col d-flex bg-white">
+        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
+          <div class="card-body d-flex gap-2 flex-column justify-content-start text-center">
+            <div class="mb-3">
+              <i class="bi bi-clock-fill fs-1 text-danger"></i>
+            </div>
+            <h5 class="fw-bold">44 Years in Service</h5>
+            <p class="text-muted">SFAC has been in service for 44 years, upholding academic excellence since 1981.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Campuses -->
+      <div class="col d-flex bg-white">
+        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
+          <div class="card-body d-flex flex-column gap-2 justify-content-start text-center">
+            <div class="mb-3">
+              <i class="bi bi-journal-bookmark-fill fs-1 text-danger"></i>
+            </div>
+            <h5 class="fw-bold">10+ Campuses</h5>
+            <p class="text-muted">Serving Metro Manila and Southern Luzon.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CHED -->
+      <div class="col d-flex bg-white">
+        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
+          <div class="card-body d-flex flex-column gap-2 justify-content-start text-center">
+            <div class="mb-3">
+              <i class="bi bi-pencil-square fs-1 text-danger"></i>
+            </div>
+            <h5 class="fw-bold">CHED Recognized</h5>
+            <p class="text-muted">Government-accredited programs meeting national standards.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Alumni -->
+      <div class="col d-flex bg-white">
+        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
+          <div class="card-body d-flex flex-column gap-2 justify-content-start text-center">
+            <div class="mb-3">
+              <i class="bi bi-briefcase-fill fs-1 text-danger"></i>
+            </div>
+            <h5 class="fw-bold">Global Alumni</h5>
+            <p class="text-muted">Graduates thriving across diverse industries worldwide.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Recognition Logos -->
-    <div class="mt-5 pb-5">
-      <p class="fw-semibold text-center text-black">We are Recognized By</p>
+    <div class="mt-4">
+      <p class="text-center text-dark">We are Recognized By:</p>
       <div class="d-flex flex-wrap justify-content-center align-items-center gap-3">
         <img src="./assets/img/deped.jpg" alt="DepEd" class="img-fluid" style="height: 4rem;">
         <img src="./assets/img/bi.png" alt="BI" class="img-fluid" style="height: 4rem;">
@@ -64,64 +125,11 @@
       </div>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-      <!-- Years -->
-      <div class="col d-flex">
-        <div class="card flex-fill shadow-sm border-0 rounded-3 p-4 bg-danger text-white">
-          <div class="card-body d-flex flex-column justify-content-center text-center">
-            <div class="mb-3">
-              <i class="bi bi-clock-fill fs-1 text-white"></i>
-            </div>
-            <h5 class="fw-bold">44 Years in Service</h5>
-            <p class="small">SFAC has been in service for 44 years, upholding academic excellence since 1981.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Campuses -->
-      <div class="col d-flex">
-        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
-          <div class="card-body d-flex flex-column justify-content-center text-center">
-            <div class="mb-3">
-              <i class="bi bi-journal-bookmark-fill fs-1 text-danger"></i>
-            </div>
-            <h5 class="fw-bold">10+ Campuses</h5>
-            <p class="small text-dark">Serving Metro Manila and Southern Luzon.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- CHED -->
-      <div class="col d-flex">
-        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
-          <div class="card-body d-flex flex-column justify-content-center text-center">
-            <div class="mb-3">
-              <i class="bi bi-pencil-square fs-1 text-danger"></i>
-            </div>
-            <h5 class="fw-bold">CHED Recognized</h5>
-            <p class="small text-dark">Government-accredited programs meeting national standards.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Alumni -->
-      <div class="col d-flex">
-        <div class="card flex-fill shadow-sm border-0 rounded-3 bg-light p-4">
-          <div class="card-body d-flex flex-column justify-content-center text-center">
-            <div class="mb-3">
-              <i class="bi bi-briefcase-fill fs-1 text-danger"></i>
-            </div>
-            <h5 class="fw-bold">Global Alumni</h5>
-            <p class="small text-dark">Graduates thriving across diverse industries worldwide.</p>
-          </div>
-        </div>
-      </div>
-    </div>
   </section>
 
 
     <!-- About Us -->
-    <section class="w-100 bg-light py-5 my-5">
+    <section class="w-100 bg-light p-5" style="margin-bottom: 8rem; margin-top: 8rem;">
       <div class="container-lg py-5">
         <div class="row g-5 align-items-center">
           
@@ -259,49 +267,73 @@
     <!-- Departments -->
     <section class="container-lg py-5 my-5">
       <h2 class="font-merriweather fw-bold text-center mb-5">Explore Our Departments</h2>
-      <div class="row row-cols-1 row-cols-md-2 g-4">
 
-        <!-- Basic Education Card -->
-        <div class="col">
-          <div class="card h-100 shadow-sm border-0 rounded-4 h-100">
-            <div class="position-relative">
-              <img src="./assets/img/basic.jpg" alt="Basic Education" class="img-fluid w-auto" style="height: 18rem; object-fit: cover;">
-              <span class="position-absolute top-0 start-0 bg-danger text-white px-3 py-1 rounded-end">Basic Education</span>
+      <div class="accordion" id="departmentsAccordion">
+        <div class="row row-cols-1 row-cols-md-2 g-3">
+          <!-- Basic Education -->
+          <div class="col">
+            <div class="accordion-item border rounded-4 shadow-sm h-auto">
+              <img src="./assets/img/basic.jpg" alt="Basic Education" class="img-fluid w-100 rounded-top-4" style="height: 22rem; object-fit: cover;">
+              <button type="button" class="btn btn-danger btn-sm w-100 d-flex justify-content-between align-items-center p-3">
+                <span class="mb-0">View Details</span>
+                <i class="bi bi-arrow-right fs-5"></i>
+              </button>
+
+              <h2 class="accordion-header" id="headingDeptBasic">
+                <button class="accordion-button collapsed fw-bold text-danger" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseDeptBasic"
+                  aria-expanded="false" aria-controls="collapseDeptBasic">
+                  Basic Education
+                </button>
+              </h2>
+              <div id="collapseDeptBasic" class="accordion-collapse collapse"
+                aria-labelledby="headingDeptBasic" data-bs-parent="#departmentsAccordion">
+                <div class="accordion-body small">
+                  <p class="text-muted mb-2">Pre-School to Senior High</p>
+                  <ul>
+                    <li>Nursery, Pre-Kinder, Kinder</li>
+                    <li>Grades 1–6, Grades 7–10</li>
+                    <li>Senior High: STEM, ABM, HUMSS, GAS, TVL-HE</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="card-body bg-light h-100">
-              <p class="small mb-2 text-muted">Pre-School to Senior High</p>
-              <ul class="small mb-3">
-                <li>Nursery, Pre-Kinder, Kinder</li>
-                <li>Grades 1–6, Grades 7–10</li>
-                <li>Senior High: STEM, ABM, HUMSS, GAS, TVL-HE</li>
-              </ul>
-            </div>
-            <a href="#" class="btn btn-danger m-2">View Details</a>
           </div>
-        </div>
 
-        <!-- Higher Education Card -->
-        <div class="col">
-          <div class="card shadow-sm border-0 rounded-4 h-100" >
-            <div class="position-relative">
-              <img src="./assets/img/higher.jpg" alt="Higher Education" class="img-fluid w-auto" style="height: 18rem; object-fit: cover;">
-              <span class="position-absolute top-0 start-0 bg-danger text-white px-3 py-1 rounded-end">Higher Education</span>
+          <!-- Higher Education -->
+          <div class="col">
+            <div class="accordion-item border rounded-4 shadow-sm h-auto">
+              <img src="./assets/img/higher.jpg" alt="Higher Education" class="img-fluid w-100 rounded-top-4" style="height: 22rem; object-fit: cover;">
+              <button type="button" class="btn btn-danger btn-sm w-100 d-flex justify-content-between align-items-center p-3">
+                <span class="mb-0">View Details</span>
+                <i class="bi bi-arrow-right fs-5"></i>
+              </button>
+              <h2 class="accordion-header" id="headingDeptHigher">
+                <button class="accordion-button collapsed fw-bold text-danger" type="button"
+                  data-bs-toggle="collapse" data-bs-target="#collapseDeptHigher"
+                  aria-expanded="false" aria-controls="collapseDeptHigher">
+                  Higher Education
+                </button>
+              </h2>
+              <div id="collapseDeptHigher" class="accordion-collapse collapse"
+                aria-labelledby="headingDeptHigher" data-bs-parent="#departmentsAccordion">
+                <div class="accordion-body small">
+                  <p class="text-muted mb-2">College Degree Programs</p>
+                  <ul>
+                    <li>Education: BSED, BEEd, PE</li>
+                    <li>Business: BSBA (Marketing, Finance)</li>
+                    <li>Technology: BSCS</li>
+                    <li>Hospitality: BSHM</li>
+                  </ul>
+                </div>
+              </div>
             </div>
-            <div class="card-body bg-light h-100">
-              <p class="small mb-2 text-muted">College Degree Programs</p>
-              <ul class="small mb-3">
-                <li>Education: BSED, BEEd, PE</li>
-                <li>Business: BSBA (Marketing, Finance)</li>
-                <li>Technology: BSCS</li>
-                <li>Hospitality: BSHM</li>
-              </ul>
-            </div>
-            <a href="#" class="btn btn-danger m-2">View Details</a>
           </div>
-        </div>
 
+        </div>
       </div>
     </section>
+
 
 
     <!-- Video Panel -->
