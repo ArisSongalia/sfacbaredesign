@@ -54,7 +54,29 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+ .zoom-img {
+      transition: transform 0.4s ease;
+    }
+    .zoom-img:hover {
+      transform: scale(1.05);
+    }
 
+    .carousel-indicators [data-bs-target] {
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background-color: #f7f7f7ff;
+      border: none;
+      opacity: 1;
+      transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-indicators .active {
+      background-color: #e0162aff;
+      transform: scale(1.2);
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    }
 
 
 

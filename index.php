@@ -270,12 +270,13 @@
 
       <div class="accordion" id="departmentsAccordion">
         <div class="row row-cols-1 row-cols-md-2 g-3">
+          
           <!-- Basic Education -->
           <div class="col">
             <div class="accordion-item border rounded-4 shadow-sm h-auto">
               <img src="./assets/img/basic.jpg" alt="Basic Education" class="img-fluid w-100 rounded-top-4" style="height: 22rem; object-fit: cover;">
               <button type="button" class="btn btn-danger btn-sm w-100 d-flex justify-content-between align-items-center p-3">
-                <span class="mb-0">View Details</span>
+                <span class="mb-0">Read More</span>
                 <i class="bi bi-arrow-right fs-5"></i>
               </button>
 
@@ -283,17 +284,21 @@
                 <button class="accordion-button collapsed fw-bold text-danger" type="button"
                   data-bs-toggle="collapse" data-bs-target="#collapseDeptBasic"
                   aria-expanded="false" aria-controls="collapseDeptBasic">
-                  Basic Education
+                  Basic Education Department
                 </button>
               </h2>
+
               <div id="collapseDeptBasic" class="accordion-collapse collapse"
                 aria-labelledby="headingDeptBasic" data-bs-parent="#departmentsAccordion">
                 <div class="accordion-body small">
-                  <p class="text-muted mb-2">Pre-School to Senior High</p>
+                  <p class="text-muted mb-2">
+                    The Basic Education Department builds a strong academic foundation and instills lifelong values from early learning to senior high school.
+                  </p>
                   <ul>
-                    <li>Nursery, Pre-Kinder, Kinder</li>
-                    <li>Grades 1–6, Grades 7–10</li>
-                    <li>Senior High: STEM, ABM, HUMSS, GAS, TVL-HE</li>
+                    <li><strong>Pre-School:</strong> Nursery, Pre-Kinder, and Kinder programs that encourage curiosity and social growth.</li>
+                    <li><strong>Elementary:</strong> Grades 1–6, focusing on academic excellence, creativity, and values education.</li>
+                    <li><strong>Junior High School:</strong> Grades 7–10, following the K–12 curriculum with core subjects and enrichment programs.</li>
+                    <li><strong>Senior High School:</strong> Academic tracks such as STEM, ABM, HUMSS, GAS, and TVL–HE designed to prepare students for college and careers.</li>
                   </ul>
                 </div>
               </div>
@@ -305,25 +310,29 @@
             <div class="accordion-item border rounded-4 shadow-sm h-auto">
               <img src="./assets/img/higher.jpg" alt="Higher Education" class="img-fluid w-100 rounded-top-4" style="height: 22rem; object-fit: cover;">
               <button type="button" class="btn btn-danger btn-sm w-100 d-flex justify-content-between align-items-center p-3">
-                <span class="mb-0">View Details</span>
+                <span class="mb-0">Read More</span>
                 <i class="bi bi-arrow-right fs-5"></i>
               </button>
+
               <h2 class="accordion-header" id="headingDeptHigher">
                 <button class="accordion-button collapsed fw-bold text-danger" type="button"
                   data-bs-toggle="collapse" data-bs-target="#collapseDeptHigher"
                   aria-expanded="false" aria-controls="collapseDeptHigher">
-                  Higher Education
+                  Higher Education Department
                 </button>
               </h2>
+
               <div id="collapseDeptHigher" class="accordion-collapse collapse"
                 aria-labelledby="headingDeptHigher" data-bs-parent="#departmentsAccordion">
                 <div class="accordion-body small">
-                  <p class="text-muted mb-2">College Degree Programs</p>
+                  <p class="text-muted mb-2">
+                    The Higher Education Department equips students with professional knowledge, leadership skills, and real-world experience to excel in their chosen fields.
+                  </p>
                   <ul>
-                    <li>Education: BSED, BEEd, PE</li>
-                    <li>Business: BSBA (Marketing, Finance)</li>
-                    <li>Technology: BSCS</li>
-                    <li>Hospitality: BSHM</li>
+                    <li><strong>Education:</strong> BSED Majors in English, Math, and Filipino; BEEd; Bachelor of Early Childhood Education; Bachelor of Physical Education.</li>
+                    <li><strong>Business:</strong> BSBA Majors in Marketing Management, Financial Management, and Operations Management.</li>
+                    <li><strong>Technology:</strong> BS in Computer Science focusing on software development, systems analysis, and IT innovation.</li>
+                    <li><strong>Hospitality:</strong> BS in Hospitality Management emphasizing service excellence and global standards in tourism and hotel operations.</li>
                   </ul>
                 </div>
               </div>
@@ -334,50 +343,176 @@
       </div>
     </section>
 
+    <!-- Latest -->
+    <section class="w-100 bg-light">
+      <section class="container-lg py-5" style="margin-top: 8rem;">
+        <h2 class="font-merriweather fw-bold text-center mb-5">
+          Latest @ Saint Francis of Assisi College
+        </h2>
+        <?php
+        $images = glob("assets/img/latest/*.{jpg,jpeg,png,gif}", GLOB_BRACE);
+        $chunks = array_chunk($images, 3);
+        ?>
+        <div id="latestCarousel" class="carousel slide" data-bs-ride="carousel">
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <?php foreach ($chunks as $index => $chunk): ?>
+              <div class="carousel-item <?= $index === 0 ? 'active' : '' ?>">
+                <div class="row g-3 justify-content-center">
+                  <?php foreach ($chunk as $image): ?>
+                    <div class="col-12 col-sm-6 col-md-4">
+                      <div class="overflow-hidden rounded-4 shadow-sm">
+                        <img src="<?= $image ?>"
+                            class="d-block w-100 zoom-img"
+                            alt="Latest Update"
+                            style="height: 20rem; object-fit: cover; cursor: pointer;"
+                            data-bs-toggle="modal" data-bs-target="#imageModal"
+                            data-bs-image="<?= $image ?>">
+                      </div>
+                    </div>
+                  <?php endforeach; ?>
+                </div>
+              </div>
+            <?php endforeach; ?>
+          </div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#latestCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#latestCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+          <!-- Indicators BELOW images -->
+          <div class="carousel-indicators position-static mt-3">
+            <?php foreach ($chunks as $i => $chunk): ?>
+              <button type="button" data-bs-target="#latestCarousel" data-bs-slide-to="<?= $i ?>"
+                <?= $i === 0 ? "class='active' aria-current='true'" : "" ?>></button>
+            <?php endforeach; ?>
+          </div>
+        </div>
+
+        <!-- Modal for fullscreen image -->
+        <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content bg-transparent border-0">
+              <button type="button" class="btn-close btn-close-white ms-auto me-2 mt-2" data-bs-dismiss="modal" aria-label="Close"></button>
+              <img src="" id="modalImage" class="img-fluid rounded-4 shadow">
+            </div>
+          </div>
+        </div>
+
+        <div class="container-lg ">
+          <div class="row g-4 align-items-stretch mt-1">
+            <!-- Byt 1 Video -->
+            <div class="col-12 col-lg-6">
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/RAyiEpbfRHw?si=VcDSw_Gk1FvRI2G_"
+                  title="Basic Education"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="rounded shadow w-100">
+                </iframe>
+              </div>
+            </div>
+
+            <!-- yt 2d -->
+            <div class="col-12 col-lg-6 d-flex flex-column gap-4">
+
+              <!-- Higher Education Video -->
+              <div class="ratio ratio-16x9">
+                <iframe
+                  src="https://www.youtube.com/embed/ZaN5RAG39-w?si=usXmKdIa8Ek6lOop"
+                  title="Higher Education"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                  class="rounded shadow w-100">
+                </iframe>
+              </div>
+
+            </div>
+        </div>
+      </div>
+      </section>
+    </section>
 
 
-    <!-- Video Panel -->
-    <section class="w-100 py-5" style="margin: 10rem 0 10rem 0;">
-      <div class="container-lg">
-        <div class="row g-4 align-items-stretch">
+    <!-- Facebook -->
+    <section class="container container-lg" style="margin-top: 8rem; margin-bottom: 5rem;">
+      <h2 class="font-merriweather fw-bold text-center">Facebook Page Live View</h2>
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"></script>
 
-          <!-- Basic Education Video -->
-          <div class="col-12 col-lg-6">
-            <div class="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/LXdz4GEJBoc?list=TLGGgpAQy0YgjooxOTEwMjAyNQ"
-                title="Basic Education"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                class="rounded shadow w-100">
-              </iframe>
+      <div class="d-flex justify-content-center py-5 mx-2">
+        <div class="card shadow-lg border-0 rounded-4 overflow-hidden" style="width: 100%; max-width: 460px;">
+          <div class="card-body p-0" style="height: 40rem; overflow: hidden;">
+            <div class="fb-page"
+              data-href="https://www.facebook.com/mysfacbacoor"
+              data-tabs="timeline"
+              data-width="460"
+              data-height="640"
+              data-small-header="false"
+              data-adapt-container-width="true"
+              data-hide-cover="false"
+              data-show-facepile="false">
             </div>
           </div>
 
-          <!-- Higher Education + Facebook Card -->
-          <div class="col-12 col-lg-6 d-flex flex-column gap-4">
-
-            <!-- Higher Education Video -->
-            <div class="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/ZaN5RAG39-w?si=usXmKdIa8Ek6lOop"
-                title="Higher Education"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-                class="rounded shadow w-100">
-              </iframe>
-            </div>
-
-          </div>
 
         </div>
       </div>
     </section>
-
-
   </main>
+  
+  <!-- Style and Script for Image Carousel -->
+  <style>
+    .zoom-img {
+      transition: transform 0.4s ease;
+    }
+    .zoom-img:hover {
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 576px) {
+    .zoom-img {
+      height: 16rem !important;
+    }
+  }
+
+    .carousel-indicators [data-bs-target] {
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      background-color: #ffffffff;
+      border: none;
+      opacity: 1;
+      transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    }
+
+    .carousel-indicators .active {
+      background-color: #e0162aff;
+      transform: scale(1.2);
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+    }
+  </style>
+
+  <script>
+    const imageModal = document.getElementById('imageModal');
+    imageModal.addEventListener('show.bs.modal', event => {
+      const button = event.relatedTarget;
+      const imageSrc = button.getAttribute('data-bs-image');
+      const modalImage = imageModal.querySelector('#modalImage');
+      modalImage.src = imageSrc;
+    });
+  </script>
 
   <?php include './assets/includes/footer.php'; ?>
 </body>

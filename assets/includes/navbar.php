@@ -1,7 +1,7 @@
 
 <div id="container" style="padding-top: 96px;">
   <!-- Top Contact Bar -->
-  <div class="bg-danger text-white py-1 small fixed-top " style="z-index: 1031;">
+  <div class="bg-danger text-white py-1 small fixed-top top-contact-bar" style="z-index: 1031;">
     <div class="container-md d-flex justify-content-between align-items-center">
       <div>
         <i class="bi bi-envelope me-1"></i>admissions.sfacbacoor@gmail.com
@@ -16,7 +16,7 @@
   </div>
 
   <!-- Main Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow bg-white" style="top: 26px;">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top main-navbar shadow bg-white" style="top: 26px;">
     <div class="container-fluid container-md">
       <a class="navbar-brand" href="#">
         <img src="assets/img/sfac_logo.png" alt="SFAC Logo" height="46" />
@@ -51,3 +51,41 @@
   </nav>
 </div>
 
+
+<style>
+  .top-contact-bar {
+    transition: transform 0.3s ease, opacity 0.3s ease;
+  }
+
+  .top-contact-bar.hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  .main-navbar {
+    transition: top 0.3s ease;
+  }
+
+  .main-navbar.shift-up {
+    top: 0 !important;
+  }
+</style>
+
+<script>
+  const topBar = document.querySelector(".top-contact-bar");
+  const navbar = document.querySelector(".main-navbar");
+  let lastScrollY = window.scrollY;
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > lastScrollY && window.scrollY > 50) {
+      // Scrolling down → hide contact bar
+      topBar.classList.add("hidden");
+      navbar.classList.add("shift-up");
+    } else {
+      // Scrolling up → show contact bar
+      topBar.classList.remove("hidden");
+      navbar.classList.remove("shift-up");
+    }
+    lastScrollY = window.scrollY;
+  });
+</script>

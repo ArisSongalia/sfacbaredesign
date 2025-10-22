@@ -31,18 +31,18 @@
         <p class="small mb-1"><strong>Landline:</strong> 8800 3131</p>
         <p class="small mb-1"><strong>Basic Education Department (BED)</strong></p>
         <p class="small mb-1"><strong>Mobile:</strong> (0995) 419 8312</p>
-        <p class="small mb-3"><strong>Email:</strong> <a href="mailto:admissionsbedlp@stfrancis.edu.ph" class="text-white text-decoration-underline">admissionsbedlp@stfrancis.edu.ph</a></p>
+        <p class="small mb-3"><strong>Email:</strong> <a href="mailto:admissionsbedlp@stfrancis.edu.ph" class="text-white text-decoration-underline stylish-link">admissionsbedlp@stfrancis.edu.ph</a></p>
         <p class="small mb-1"><strong>Higher Education Department (HED)</strong></p>
         <p class="small mb-1"><strong>Mobile:</strong> (0933) 946 8066</p>
-        <p class="small"><strong>Email:</strong> <a href="mailto:sfacmainlaspinas@gmail.com" class="text-white text-decoration-underline">sfacmainlaspinas@gmail.com</a></p>
+        <p class="small "><strong>Email:</strong> <a href="mailto:sfacmainlaspinas@gmail.com" class="text-white text-decoration-underline stylish-link">sfacmainlaspinas@gmail.com</a></p>
       </div>
 
       <!-- Developer Info -->
       <div class="col">
         <h5 class="small fw-semibold text-secondary">Developer</h5>
-        <p class="small">
-          <a href="mailto:hello.arissongalimcpe@gmail.com" class="stylish-link text-white text-decoration-none">
-            <i class="bi bi-envelope-fill me-2"></i>hello.arissongalimcpe@gmail.com
+        <p class="small stylish-link">
+          <a href="mailto:arissongalimcpe@gmail.com" class=" text-white text-decoration-none">
+            <i class="bi bi-envelope-fill me-2"></i>arissongaliamcpe@gmail.com
           </a>
         </p>
       </div>
