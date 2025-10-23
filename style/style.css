@@ -1,3 +1,4 @@
+
 .banner-bg {
   background-image: url('../assets/img/banner.png'); 
   background-size: cover;
@@ -82,5 +83,6 @@
   transform: scale(1.2);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
 }
+
 
 

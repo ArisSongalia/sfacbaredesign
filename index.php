@@ -8,7 +8,7 @@
   <?php include './assets/includes/bootstrap.php'; ?>
 </head>
 
-<body style="margin-top: 4rem;">
+<body style="margin-top: 6rem;">
   <main>
     <!-- Navbar -->
     <?php include './assets/includes/navbar.php'; ?>

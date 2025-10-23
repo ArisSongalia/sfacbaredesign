@@ -6,16 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Higher Education | Saint Francis of Assisi College Bacoor</title>
   <link rel="stylesheet" href="./style/original-style.css" />
+  <link rel="stylesheet" href="./style/style.css" />
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet">
   <?php
     include('assets/includes/bootstrap.php');
   ?>
 </head>
 
-<body>
-  <?php
-    include('assets/includes/navbar.php');
-  ?>
+<body">
+  <?php include('assets/includes/navbar.php'); ?>
 
   <main id="main">
     <!-- ======= Breadcrumbs ======= -->
