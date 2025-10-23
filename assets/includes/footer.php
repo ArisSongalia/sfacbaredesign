@@ -5,7 +5,7 @@
       <!-- Campus Name and Social -->
       <div class="col">
         <h2 class="font-merriweather">Saint Francis of Assisi College Bacoor Campus</h2>
-        <span class="d-flex flex-row gap-4 mt-4">
+        <span class="d-flex flex-row gap-4 mt-4 stylish-link">
           <a href="https://www.facebook.com/sfacbacoor" target="_blank" class="stylish-link" aria-label="Facebook">
             <i class="bi bi-facebook fs-4"></i>
           </a>
